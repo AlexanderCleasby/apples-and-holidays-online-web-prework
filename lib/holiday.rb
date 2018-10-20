@@ -52,7 +52,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
 end
-all_winter_holiday_supplies({
+puts all_winter_holiday_supplies({
   {
     :winter => {
       :christmas => ["Lights", "Wreath"],
