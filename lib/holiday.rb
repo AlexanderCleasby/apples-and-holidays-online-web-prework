@@ -67,5 +67,4 @@ puts all_winter_holiday_supplies({
     :spring => {
       :memorial_day => ["BBQ"]
     }
-  }
-})
+  }})
