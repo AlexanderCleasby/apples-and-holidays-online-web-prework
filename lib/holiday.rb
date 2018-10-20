@@ -34,7 +34,7 @@ def all_winter_holiday_supplies(holiday_hash)
   #  puts supp
   #  out.push(supp)}}
   #out
-  holiday_hash[:winter].map{|holiday|  holiday.map{|supp| 
+  holiday_hash[:winter].each{|holiday|  holiday.each{|supp|
     puts supp
     out.push(supp)}}
   out
