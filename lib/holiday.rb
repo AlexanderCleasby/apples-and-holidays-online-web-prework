@@ -60,7 +60,7 @@ def all_holidays_with_bbq(holiday_hash)
   out = []
   holiday_hash.each_value{|holiday|
 
-    season.each_value{ |supply|
+    holiday.each_value{ |supply|
       if supply=="BBQ"
         out.push(holiday)
       end
