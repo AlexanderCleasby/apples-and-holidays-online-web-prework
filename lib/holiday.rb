@@ -65,6 +65,7 @@ def all_holidays_with_bbq(holiday_hash)
         out.push(holiday)
       end
     }}
+    out
 end
 
 #puts all_holidays_with_bbq(
