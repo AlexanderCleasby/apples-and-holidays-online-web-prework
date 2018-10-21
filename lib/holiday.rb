@@ -61,7 +61,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.delete_if{|season|
 
     season.each_value{ |holiday|
-      puts season
+      true
     }}
 end
 
