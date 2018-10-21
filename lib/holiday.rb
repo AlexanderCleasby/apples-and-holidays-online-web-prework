@@ -64,7 +64,7 @@ def all_holidays_with_bbq(holiday_hash)
       puts supply
       puts holiday
       if supply=="BBQ"
-        out.push(holiday)
+        out.push(holiday.key)
       end
     }}
     out
