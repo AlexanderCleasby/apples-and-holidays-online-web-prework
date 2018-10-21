@@ -59,9 +59,9 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   out = []
   holiday_hash.each_value{|season|
-    puts season
+
     season.each_value{ |holiday|
-      puts holiday
+      puts season
     }}
 end
 
