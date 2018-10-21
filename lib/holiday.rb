@@ -61,7 +61,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each_value{|season|
 
     season.each_value{ |holiday|
-      puts season
+      puts holiday
     }}
 end
 
