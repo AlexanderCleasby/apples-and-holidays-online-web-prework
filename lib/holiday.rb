@@ -58,10 +58,10 @@ def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
   out = []
-  holiday_hash.delete_if{|season|
+  holiday_hash.each_value{|season|
 
     season.each_value{ |holiday|
-      true
+      puts season
     }}
 end
 
