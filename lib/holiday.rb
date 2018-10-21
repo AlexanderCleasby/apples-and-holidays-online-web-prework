@@ -43,7 +43,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each_key{|key|
-    season_title=keyid2name+":"
+    season_title=key.id2name+":"
      key.class}
 end
 
