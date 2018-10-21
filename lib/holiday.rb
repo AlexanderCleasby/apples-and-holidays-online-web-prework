@@ -48,7 +48,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_title = holiday.id2name.split("_").map{|word|
         word[0].upcase+word[1..word.length]}.join(" ")+": "+
         holiday_hash[key][holiday].join(", ")
-      puts " "+holiday_title
+      puts "  "+holiday_title
        }
 
      key.class}
